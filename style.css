@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    border-bottom: 4px solid #3aa832;
+}
+.momo{
+    color: #3aa832;
+    text-align: center;
+    
+}
+.moto{
+    text-align: center;
+}
+.motx{
+    margin-left: 220px;
+}
+.align{
+    margin: 20px 205px;
+}
+.icon-item{
+    margin: 25px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(image/banner/banner-new.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.nop{
+    color: #3aa832;
+}
+.header-contant{
+    margin-left: -400px;
+    color: whitesmoke;
+}
+
+.btn-success{
+    border-radius: 30px;
+    color: whitesmoke;
+    width: 140px;
+    height: 50px;
+    background-color: #3aa832;  
+} 
+.para{
+    text-align: center;
+}
+.mott{
+    margin: 5px 145px;
+}
+.btn:hover{
+    border-radius: 30px;
+    background-color: #98f092;
+    color: white;
+}
+.ato{
+    color: #3aa832;
+    text-align: center;
+    
+}
+.vvk{
+    background-color: whitesmoke;
+}
+.mto{
+    color: #3aa832;
+    margin-left: 30px;
+}
+.mmo{
+    float: right;
+    width: 50%;
+}
+
+.col-img{
+    margin-top: 30px;
+}
+.final-signup{
+    text-align: center;
+    background-color: #3aa832;
+    padding: 50px 50px;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+.btm{
+    background-color: aliceblue;
+    color: black;
+}
+.modal-title{
+    color: black;
+}
+.zxo{
+    background-color: rgb(0, 132, 248);
+    color: black;
+}
+.bxom{
+    color: black;
+} 
