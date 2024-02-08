@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .navbar{
     border-bottom: 4px solid #3aa832;
 }
@@ -23,27 +24,14 @@
 .icon-item{
     margin: 25px;
 }
-header{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: url(image/banner/banner-new.jpg);
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
-}
 .nop{
     color: #3aa832;
 }
-.header-contant{
-    margin-left: -400px;
-    color: whitesmoke;
-}
 
 .btn-success{
-    border-radius: 30px;
+    border-radius: 25px;
     color: whitesmoke;
-    width: 140px;
+    width: 190px;
     height: 50px;
     background-color: #3aa832;  
 } 
@@ -53,11 +41,7 @@ header{
 .mott{
     margin: 5px 145px;
 }
-.btn:hover{
-    border-radius: 30px;
-    background-color: #98f092;
-    color: white;
-}
+
 .ato{
     color: #3aa832;
     text-align: center;
@@ -74,20 +58,37 @@ header{
     float: right;
     width: 50%;
 }
-
 .col-img{
     margin-top: 30px;
+}
+.mesgg{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: start;
+    font-size: medium;
 }
 .final-signup{
     text-align: center;
     background-color: #3aa832;
-    padding: 50px 50px;
-    border-radius: 5px;
-    color: whitesmoke;
+    padding: 25px 5px;
+    color: #fff;
+    background: linear-gradient(to right, #33cc33 5%, #66ff66 95%);
+
 }
-.btm{
-    background-color: aliceblue;
-    color: black;
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    background-color: black;
+}
+.text-start{
+    padding-left: 50px;
+}
+.button-cng{
+   
+
 }
 .modal-title{
     color: black;
@@ -99,3 +100,107 @@ header{
 .bxom{
     color: black;
 } 
+.modal-title{
+    text-align: center;
+}
+.vdd{
+    color: whitesmoke;
+    margin: 20px 5px;
+   
+}
+.testimonials-clean {
+  color:#313437;
+  background-color:#eef4f7;
+}
+
+.testimonials-clean p {
+  color:#7d8285;
+}
+
+.testimonials-clean h2 {
+  font-weight:bold;
+  margin-bottom:40px;
+  padding-top:40px;
+  color:inherit;
+}
+
+@media (max-width:767px) {
+  .testimonials-clean h2 {
+    margin-bottom:25px;
+    padding-top:25px;
+    font-size:24px;
+  }
+}
+
+.testimonials-clean .intro {
+  font-size:16px;
+  max-width:500px;
+  margin:0 auto;
+}
+
+.testimonials-clean .intro p {
+  margin-bottom:0;
+}
+
+.testimonials-clean .people {
+  padding:50px 0 20px;
+}
+
+.testimonials-clean .item {
+  margin-bottom:32px;
+}
+
+@media (min-width:768px) {
+  .testimonials-clean .item {
+    height:220px;
+  }
+}
+
+.testimonials-clean .item .box {
+  padding:55px;
+  background-color:#fff;
+  position:relative;
+}
+
+.testimonials-clean .item .box:after {
+  content:'';
+  position:absolute;
+  left:30px;
+  bottom:-24px;
+  width:0;
+  height:0;
+  border:15px solid transparent;
+  border-width:12px 15px;
+  border-top-color:#fff;
+}
+
+.testimonials-clean .item .author {
+  margin-top:28px;
+  padding-left:25px;
+}
+
+.testimonials-clean .item .name {
+  font-weight:bold;
+  margin-bottom:2px;
+  color:inherit;
+}
+
+.testimonials-clean .item .title {
+  font-size:13px;
+  color:#9da9ae;
+}
+
+.testimonials-clean .item .parg1 {
+  font-size:15px;
+  margin-bottom:0;
+}
+
+.testimonials-clean .item img {
+  max-width:40px;
+  float:left;
+  margin-right:12px;
+  margin-top:-5px;
+}
+.box{
+    border-radius: 6px;
+}
