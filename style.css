@@ -86,9 +86,9 @@
 .text-start{
     padding-left: 50px;
 }
-.button-cng{
-   
-
+.xmo{
+  font-size: 35px;
+  color: #3aa832;
 }
 .modal-title{
     color: black;
